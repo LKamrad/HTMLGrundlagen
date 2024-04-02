@@ -69,6 +69,10 @@
   <ItemGroup>
     <Content Include="Aufgabe2.html" />
     <Content Include="AufgabeTabellen.html" />
+    <Content Include="HyperlinksAfg1\Ende.html" />
+    <Content Include="HyperlinksAfg1\Mitte.html" />
+    <Content Include="HyperlinksAfg1\Start.html" />
+    <Content Include="HyperlinksKanzler.html" />
     <Content Include="Index.html" />
     <Content Include="Listen.html" />
     <Content Include="Web.config" />
@@ -84,6 +88,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
